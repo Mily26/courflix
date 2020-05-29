@@ -9,13 +9,15 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 
 <body>
     <div class="container">
         <div class="title">
+            <i class="fas fa-bars" onclick="toggleMenu()"></i>
             <img src="./images/titulo.png">
-            <div class="titles">
+            <div class="titles menu-close">
                 <a href="#">Inicio</a>
                 <a href="#">Series</a>
                 <a href="#">Películas</a>
@@ -27,10 +29,13 @@
         <div class="banner">
             <h3>Original de COURFLIX</h3>
             <h1>BLACK SUMMER</h1>
+            <div class="info">
+                <p>2019 - 16+ - 1 Temporada</p>
+            </div>
             <button class="play">Reproducir</button>
             <button class="list">+ mi lista</button>
             <h4>Ver la temporada 1</h4>
-            <p>Una ansiada luna de miel.Un asesinato terrible.
+            <p class="description">Una ansiada luna de miel. Un asesinato terrible.
                 Varios sospechosos. Si sobreviven, serán unas vacaciones de
                 ensueño.</p>
         </div>
@@ -40,31 +45,43 @@
                 <a href="detail.html" class="serie">
                     <img src="./images/serieportada1.png">
                 </a>
+                
                 <a href="detail.html" class="serie">
                     <img src="./images/serieportada2.png">
                 </a>
+                
                 <a href="detail.html" class="serie">
                     <img src="./images/serieportada3.png">
                 </a>
+                
                 <a href="detail.html" class="serie">
                     <img src="./images/serieportada4.png">
                 </a>
+                
             </div>
             <div class="continue">
                 <h3 class="series-title">Seguir viendo el contenido de Mily</h3>
                 <div class="series">
                     <a href="detail.html" class="serie">
                         <img src="./images/serie9.png">
+                        <div class="progress vikings"></div>
                     </a>
+                    
                     <a href="detail.html" class="serie">
                         <img src="./images/serie10.png">
+                        <div class="progress dark"></div>
                     </a>
+                    
                     <a href="detail.html" class="serie">
                         <img src="./images/serie11.png">
+                        <div class="progress order"></div>
                     </a>
+                    
                     <a href="detail.html" class="serie">
                         <img src="./images/serie12.png">
+                        <div class="progress end"></div>
                     </a>
+                    
                 </div>
             </div>
             <div class="recently">

@@ -6,12 +6,14 @@
     <title>Courflix - Breaking Bad</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
 </head>
 <body>
 <div class="container">
         <div class="title">
             <img src="./images/titulo.png" alt="Courflix">
-            <div class="titles">
+            <div class="titles menu-close">
                 <a href="#">Inicio</a>
                 <a href="#">Series</a>
                 <a href="#">Películas</a>
@@ -20,8 +22,13 @@
             </div>
         </div>
     <div class="banner content">
+        <a href="index.html"><i class="fas fa-arrow-left"></i></a>
         <div class="select-title">
             <img src="./images/logo-bb.png" alt="breaking bad">
+        </div>
+        <h1>Breaking Bad</h1>
+        <div class="info">
+            <p>2008 - 16+ - 5 Temporadas</p>
         </div>
         <div class="subtitle">
             <h3>95% de coincidencia</h3>
@@ -31,30 +38,52 @@
         </div>
         <div>
             <button class="play bb">Reproducir</button>
-            <button class="list">+ mi lista</button>
-            <p>Un profesor de Química de secundaria con cáncer terminal se asocia a un exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina.</p>
+            <button class="list">+ mi lista</button><i class="fas fa-thumbs-up"></i><i class="fas fa-thumbs-down"></i>
+            <p class="information">Un profesor de Química de secundaria con cáncer terminal se asocia a un exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina.</p>
         </div>
         
     </div>
-    <div class="series-wrapper">
-        <h3 class="series-title">Series</h3>
-        <div class="series">
-            <a href="detail.html" class="serie">
-                <img src="./images/serieportada1.png">
-            </a>
-            <a href="detail.html" class="serie">
-                <img src="./images/serieportada2.png">
-            </a>
-            <a href="detail.html" class="serie">
-                <img src="./images/serieportada3.png">
-            </a>
-            <a href="detail.html" class="serie">
-                <img src="./images/serieportada4.png">
-            </a>
+    <div class="capitulos-wrapper">
+        <h3 class="capitulos-title">Temporada 1</h3>
+        <div class="capitulos">
+            <div class="capitulo">
+                <a href="detail.html" class="capitulo-link">
+                    <img src="./images/capitulo1.png">
+                </a>
+                    <div class="capitulo-descripcion">
+                        <h5>Principio del fin</h5>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+            </div>        
+            <div class="capitulo">
+                <a href="detail.html" class="capitulo-link">
+                    <img src="./images/capitulo2.png">
+                </a>
+                <div class="capitulo-descripcion">
+                    <h5>El gato en la bolsa</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>    
+                
+                    
+            <div class="capitulo">
+                <a href="detail.html" class="capitulo-link">
+                    <img src="./images/capitulo3.png">
+                </a>
+                <div class="capitulo-descripcion">
+                    <h5>Y la bolsa en el río</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+            </div>    
+                
+                    
+            
+           
+            
         </div>
     </div>
 
 </div>
-    <a href="index.html">Volver atrás</a>
+    
 </body>
 </html>
